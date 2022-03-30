@@ -28,14 +28,14 @@ class Node {
 }
 
 // A Java program to introduce Binary Tree
-class Q2_BinaryTree {
+class BinaryTree {
     // Root of Binary Tree
     Node root; // The root node of the binary tree.
 
     // Design the constructor of the class 'BinaryTree'
 
     // Initialize a binary tree with a root item
-    Q2_BinaryTree (int rootItem){
+    BinaryTree (int rootItem){
         this.root = new Node(rootItem);
     }
 
